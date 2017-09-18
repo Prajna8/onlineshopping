@@ -19,7 +19,7 @@ public class PageController {
 		return mv;
 	}
 
-	@RequestMapping(value = {"/about"})
+	@RequestMapping(value =  "/about" )
 	public ModelAndView about() {
 		ModelAndView mv = new ModelAndView("page");
 		mv.addObject("title", "About Us");
